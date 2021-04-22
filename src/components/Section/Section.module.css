@@ -1,0 +1,30 @@
+.d10 .title {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  color: #465457;
+  display: table;
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  letter-spacing: 2px;
+  border: 2px solid #cbdcea;
+  color: #394671;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  /* padding: 30px; */
+}
+
+.d10 .title:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #cbdcea;
+}

@@ -1,0 +1,36 @@
+.ex10 {
+  padding: 10px;
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.text2 {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px auto;
+  color: #2e2f45;
+}
+
+.ex10 .text2:before {
+  content: '';
+  position: absolute;
+  border: 10px solid transparent;
+  border-left: 10px solid rgb(81, 227, 213);
+  top: 23%;
+  margin: 0 auto;
+  left: 15%;
+}
+
+.ex10 .text2:after {
+  content: '';
+  position: absolute;
+  border: 10px solid transparent;
+  border-right: 10px solid rgb(81, 227, 213);
+  top: 23%;
+  margin: 0 auto;
+  right: 15%;
+}
